@@ -1,0 +1,12 @@
+{
+  "name": "OilWellsEarthquakes",
+  "displayName": "OilWellsEarthquakes",
+  "expo": {
+    "name": "OilWellsEarthquakes",
+    "slug": "OilWellsEarthquakes",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
