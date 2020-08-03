@@ -1,0 +1,1 @@
+- To run, in your terminal of choice, type in: `expo start`
