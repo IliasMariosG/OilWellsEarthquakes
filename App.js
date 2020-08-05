@@ -17,6 +17,7 @@ export default class App extends React.Component {
           style={styles.mapStyle} >
         <Marker
           coordinate={{latitude: 36.9003240, longitude: -98.2182600}}
+          image={require('./assets/oil-well-marker.png')}
         />
         </MapView>
       </View>
