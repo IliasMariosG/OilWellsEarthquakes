@@ -1,5 +1,5 @@
 import React from 'react';
-import MapView from 'react-native-maps';
+import MapView, { Marker } from 'react-native-maps';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
 export default class App extends React.Component {
@@ -8,12 +8,17 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <MapView 
           initialRegion={{
-            latitude: 26.9003240,
+            latitude: 36.9003240,
             longitude: -98.2182600,
-            latitudeDelta: 26,
-            longitudeDelta: 35,
+            latitudeDelta: 0.01,
+            longitudeDelta: 5,
           }}
-     style={styles.mapStyle} />
+        
+          style={styles.mapStyle} >
+        <Marker
+          coordinate={{latitude: 36.9003240, longitude: -98.2182600}}
+        />
+        </MapView>
       </View>
     );
   }
