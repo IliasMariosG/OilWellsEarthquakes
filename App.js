@@ -1,6 +1,6 @@
 import React from 'react';
 import MapView, { Marker } from 'react-native-maps';
-import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, Image } from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -15,15 +15,18 @@ export default class App extends React.Component {
           }}
         
           style={styles.mapStyle} >
-        <Marker
-          coordinate={{latitude: 36.9003240, longitude: -98.2182600}}
-          image={require('./assets/oil-well-marker.png')}
-        />
-        </MapView>
+
+          <Marker coordinate={{latitude: 36.9003240, longitude: -98.2182600}}>         
+            <Image source={require('./assets/oil-well-marker.png')}
+              style={{width: 30, height: 30}}
+            />
+
+          </Marker>
+        </MapView>   
       </View>
     );
   }
-}
+}<a href='https://pngtree.com/so/oil'>oil png from pngtree.com</a>
 
 const styles = StyleSheet.create({
   container: {
