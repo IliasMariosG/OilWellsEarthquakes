@@ -16,9 +16,13 @@ export default class App extends React.Component {
         
           style={styles.mapStyle} >
 
-          <Marker coordinate={{latitude: 36.9003240, longitude: -98.2182600}}>         
-            <Image source={require('./assets/oil-well-marker.png')}
-              style={{width: 30, height: 30}}
+          <Marker
+            coordinate={{latitude: 36.9003240, longitude: -98.2182600}}>         
+            <Image
+              source={require('./assets/oil-well-marker.png')}
+              style={styles.markerImage}
+              // source of the image
+              //<a href='https://pngtree.com/so/oil'>oil png from pngtree.com</a>
             />
 
           </Marker>
@@ -26,7 +30,7 @@ export default class App extends React.Component {
       </View>
     );
   }
-}<a href='https://pngtree.com/so/oil'>oil png from pngtree.com</a>
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -38,5 +42,9 @@ const styles = StyleSheet.create({
   mapStyle: {
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height,
+  },
+  markerImage: {
+    width: 30,
+    height: 30,
   },
 });
