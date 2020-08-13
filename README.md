@@ -1,8 +1,6 @@
 <!--Title -->
 <h1 align="center">OilWellsEarthquakes</h1>
 
-[![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-4630EB.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.io/)
-
 ---
 
 - To run, in your terminal of choice, type in: `expo start`
