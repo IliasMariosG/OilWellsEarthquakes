@@ -31,16 +31,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <MapView
-        initialRegion={this.state.region}
-          // initialRegion={{cd
-          //   coordinate: {
-          //     latitude: 36.9003240,
-          //     longitude: -98.2182600
-          //   },
-          //   latitudeDelta: 0.01,
-          //   longitudeDelta: 5,
-          // }}
-        
+          initialRegion={this.state.region}
           style={styles.mapStyle} 
         >
           
