@@ -13,19 +13,19 @@
 
 ### Installation
 
-``` node
+``` zsh
 npm install -g expo-cli
 ```
 
 ### Create a new project
 
-``` node
+``` zsh
 expo init <project-name>
 ```
 
 e.g.
 
-``` node
+``` zsh
 expo init OilWellsEarthquakes
 ```
 
@@ -38,11 +38,11 @@ You will be asked to choose a managed or a bare template. Managed is suggested i
 
 In your terminal of choice, type in:
 
-``` js
+``` zsh
 cd <project-name>
 ```
 
-``` node
+``` zsh
 expo start
 ```
 
