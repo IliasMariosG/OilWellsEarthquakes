@@ -3,11 +3,6 @@ import MapView, { Marker } from 'react-native-maps';
 import { StyleSheet, Text, View, Dimensions, Image } from 'react-native';
 import injectionWells from './oilWells/injwells.json';
 
-// console.log("hi1)")
-// injectionWells.map((oilwell) => (
-//   console.log(oilwell.coordinate.latitude, oilwell.coordinate.latitude)));
-// console.log("hi")
-
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -45,10 +40,6 @@ export default class App extends React.Component {
     );
   }
 }
-
-//{/* <Image source = {require('./assets/oil-well-marker.png')}></Image>
-              //<Text style={styles.markerImage}>*/
-          /* console.log(this.state.injectionWells) */
 
 const styles = StyleSheet.create({
   container: {
