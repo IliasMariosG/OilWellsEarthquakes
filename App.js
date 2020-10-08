@@ -13,30 +13,25 @@ export default class App extends React.Component {
     super(props);
   
     this.state = {
-      injectionWells: [
-        {
-          "index": 1,
-          "API_number": 3500300026,
-          "coordinate": {
-            "latitude": 36.900324,
-            "longitude": -98.21826
-          }
-        },
-        {
-          "index": 2,
-          "API_number": 5800800052,
-          "coordinate": {
-            "latitude": 36.800301,
-            "longitude": -98.19256
-          }
-        }
-      ]
+      injectionWells: [ ],
+      region: {
+        latitude: 36.9003240,
+        longitude: -98.2182600,
+        latitudeDelta: 30,
+        longitudeDelta: 40,
+      },
     }
   };
+  
+  componentDidMount()
+    {this.setState({ injectionWells: injectionWells })
+    }
+
     render() {
     return (
       <View style={styles.container}>
         <MapView
+        initialRegion={this.state.region}
           // initialRegion={{cd
           //   coordinate: {
           //     latitude: 36.9003240,
@@ -47,11 +42,11 @@ export default class App extends React.Component {
           // }}
         
           style={styles.mapStyle} 
-          >
+        >
           
          {this.state.injectionWells.map( (oilwell,index) => <Marker
            key={index}
-           coordinate={{latitude: oilwell.coordinate.latitude, longitude: oilwell.coordinate.longitude}}
+           coordinate={{latitude: oilwell.LAT, longitude: oilwell.LONG}}
           />)}
               
         </MapView>
