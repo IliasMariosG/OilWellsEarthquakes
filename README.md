@@ -52,13 +52,18 @@ Detailed installation instructions can be found on [Expo documentation](https://
 
 ## Screenshots
 
-It renders one marker one on iOS simulator (after zooming in)
+It renders one marker in iOS simulator (after zooming in)
 
 ![Screenshot 2021-02-14 at 10 05 06 PM](https://user-images.githubusercontent.com/57366310/107887731-d47c2e00-6f10-11eb-99e3-b38fc63183c1.png)
 
-It renders multiple markers on iOS simulator
+It renders multiple markers in iOS simulator
 
 ![Screenshot 2021-02-14 at 10 07 58 PM](https://user-images.githubusercontent.com/57366310/107887816-697f2700-6f11-11eb-87fb-bf54c6915703.png)
+
+It renders all markers in iOS simulator (number of markers: 11074)
+
+![Screenshot 2021-02-14 at 10 33 49 PM](https://user-images.githubusercontent.com/57366310/107888830-7c94f580-6f17-11eb-8802-8b82dbbf93c2.png)
+
 
 ## Next Steps
 
