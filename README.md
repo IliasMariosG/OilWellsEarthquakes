@@ -50,6 +50,14 @@ expo start
 
 Detailed installation instructions can be found on [Expo documentation](https://docs.expo.io/)
 
+## Next Steps
+
+- [ ] Group markers
+
+- [ ] Add homepage screen
+
+- [ ] Persistence of data
+
 ## Project roadmap
 
 - [Roadmap on trello](https://trello.com/b/AyzUt5q9)
