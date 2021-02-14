@@ -50,6 +50,12 @@ expo start
 
 Detailed installation instructions can be found on [Expo documentation](https://docs.expo.io/)
 
+## Screenshots
+
+It shows one marker one iOS simulator
+
+![Screenshot 2021-02-14 at 10 05 06 PM](https://user-images.githubusercontent.com/57366310/107887731-d47c2e00-6f10-11eb-99e3-b38fc63183c1.png)
+
 ## Next Steps
 
 - [ ] Group markers
