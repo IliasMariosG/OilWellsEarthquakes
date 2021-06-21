@@ -67,7 +67,7 @@ It renders all markers in iOS simulator (number of markers: 11074)
 
 ## Next Steps
 
-- [ ] Group markers
+- [x] Group markers
 
 - [ ] Add homepage screen
 
